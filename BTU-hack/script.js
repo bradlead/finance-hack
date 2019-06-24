@@ -13,3 +13,15 @@ CK.connect({
     .catch(function (params) {
         // your error handling code here
     });
+
+// JSON Web Token script
+
+function salaryModalConfirm(){
+    console.log('test');
+    document.getElementById("salaryRow").style.backgroundColor = "#D4EDDA";
+}
+
+function salaryModalDeny(){
+    console.log('test');
+    document.getElementById("salaryRow").style.backgroundColor = "#F8D7DA";
+}
